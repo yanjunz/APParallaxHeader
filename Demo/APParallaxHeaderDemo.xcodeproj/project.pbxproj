@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		113BBD0A171B0A3800BC6574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113BBD09171B0A3800BC6574 /* QuartzCore.framework */; };
 		A697F31F17A02B5F003B821D /* Rover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A697F31E17A02B5F003B821D /* Rover.jpg */; };
+		AE3A38B41AE5EC7E00E097B5 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A38B31AE5EC7E00E097B5 /* BrowserViewController.m */; };
 		C72B531F171834E60093E24F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72B531E171834E60093E24F /* UIKit.framework */; };
 		C72B5321171834E60093E24F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72B5320171834E60093E24F /* Foundation.framework */; };
 		C72B5323171834E60093E24F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72B5322171834E60093E24F /* CoreGraphics.framework */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		113BBD09171B0A3800BC6574 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A697F31E17A02B5F003B821D /* Rover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rover.jpg; sourceTree = "<group>"; };
+		AE3A38B21AE5EC7E00E097B5 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		AE3A38B31AE5EC7E00E097B5 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		C72B531B171834E60093E24F /* APParallaxHeaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APParallaxHeaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72B531E171834E60093E24F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C72B5320171834E60093E24F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +107,8 @@
 				C72B533A171834E60093E24F /* MasterViewController.m */,
 				C72B5325171834E60093E24F /* Supporting Files */,
 				C7AC21E219E57B1200BF5C83 /* Launch Screen.xib */,
+				AE3A38B21AE5EC7E00E097B5 /* BrowserViewController.h */,
+				AE3A38B31AE5EC7E00E097B5 /* BrowserViewController.m */,
 			);
 			path = APParallaxHeaderDemo;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			files = (
 				C72B532B171834E60093E24F /* main.m in Sources */,
 				C72B532F171834E60093E24F /* AppDelegate.m in Sources */,
+				AE3A38B41AE5EC7E00E097B5 /* BrowserViewController.m in Sources */,
 				C72B533B171834E60093E24F /* MasterViewController.m in Sources */,
 				C7E3C605171842CA00489EE2 /* UIScrollView+APParallaxHeader.m in Sources */,
 			);

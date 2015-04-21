@@ -32,7 +32,7 @@
      */
     if(parallaxWithView == NO) {
         // add parallax with view
-        UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Rover.jpg"]];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ParallaxImage.jpg"]];
         [imageView setFrame:CGRectMake(0, 0, 320, 160)];
         [imageView setContentMode:UIViewContentModeScaleAspectFill];
         [self.tableView addParallaxWithView:imageView andHeight:160];
@@ -77,6 +77,18 @@
     cell.textLabel.text = [NSString stringWithFormat:@"Row %i", indexPath.row+1];
     return cell;
 }
+
+//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+//{
+//    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 50)];
+//    view.backgroundColor = [UIColor blueColor];
+//    return view;
+//}
+//
+//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+//{
+//    return 50;
+//}
 
 #pragma mark - APParallaxViewDelegate
 
